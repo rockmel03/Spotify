@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background: #000;
+}
+
+#main {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+header {
+  grid-column-end: 3;
+  grid-column-start: 1;
+  height: 100vh;
+  background: #000;
+}
+header nav {
+  width: inherit;
+  background: #000;
+  color: #fff;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  padding: 10px;
+}
+nav > i {
+  font-size: 2.5vw;
+}
+nav ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+nav ul li {
+  width: 100%;
+  margin: 5px 0;
+}
+
+nav ul li a {
+  width: 100%;
+  color: #ffffff83;
+  font-size: 1.2vw;
+  text-decoration: none;
+  text-transform: capitalize;
+
+  display: flex;
+  gap: 5px;
+}
+nav ul li a i {
+  font-size: 1.6vw;
+  color: #ffff;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav ul li:last-child a i {
+  background-color: blueviolet;
+  border-radius: 5px;
+  padding: 2px;
+  font-size: 1rem;
+}
+.home {
+  background: rgb(7, 1, 1);
+  grid-column-start: 3;
+  grid-column-end: 13;
+  min-height: 100vh;
+}
+.playlist-Header{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    padding: 20px;
+    color: #fff;
+}
+.playlist-Header img{
+    width: 250px ;
+    height: 250px;
+    background: #847d7d;
+}
+.playlist-Header h1{
+    font-size: 5rem;
+}
+.playlist-Header h6{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.playlist-Header h6 span{
+    color:deepskyblue
+}
+.playlist-Header small{
+    font-size: 1rem;
+}
+.playlist-track-container{
+    padding: 20px;
+    color: #fff;
+}
+.playlist-track-container .playlist-buttons {
+    display: flex ;
+    align-items: center;
+    gap : 20px;
+}
+.playlist-track-container .playlist-buttons >i{
+    cursor: pointer;
+    font-size: 4rem;
+    color:#1DB954;
+}
+.playlist-track-container .playlist-buttons button{
+    cursor: pointer;
+    padding: 5px 8px;
+    background-color: #000;
+    color: white;
+    border: 2px solid #ffff;
+    border-radius: 5px;
+}
+.playlist-track-container h3{
+    text-transform: capitalize;
+    font-weight:400;
+    margin-top: 15px;
+}
+
+.track{
+    display: grid;
+    grid-template-columns: repeat(5,1fr) ;
+    align-items: center;
+    padding: 5px 10px;
+    margin: 5px 0;
+
+    background-color: #ffffff11;
+
+    border-radius: 5px;
+}
+.track i{
+    font-size:1.5rem;
+}
+.track h5{
+    font-weight: 400;
+    font-size:1rem;
+}
+.track img{
+    width: 50px;
+    height: 50px;
+    background: green;
+}
+.track small{
+    text-align: center;
+}
+
+
+
+.player {
+  position: fixed;
+  bottom: 0;
+  background: #000;
+  color: #fff;
+  width: 100%;
+  min-height: 15vh;
+
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+.PlayerSongInfo{
+    grid-column-start: 1;
+    grid-column-end: 2 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:5px;
+    padding: 0 10px;
+}
+.PlayerSongInfo img{
+    background: red;
+    width: 60px;
+    height: 60px;
+}
+.PlayerSongInfo #likeBtn{
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    font-size: 1.5rem;
+    padding: 40px;
+}
+.PlayerButtons{
+    grid-column-start: 2;
+    grid-column-end: 4;
+   
+}
+.Buttons{
+ display : flex;
+ align-items : center;
+ justify-content : center;
+ gap :10px ;
+ padding:10px;
+}
+.Buttons i{
+    font-size: 2rem;
+    cursor: pointer;
+}
+.Buttons i:nth-child(3){
+    font-size: 3rem;
+}
+.Buttons i:first-child ,.Buttons i:last-child{
+    font-size: 1.5rem;
+}
+
+.PlayerButtons input[type='range']{
+    width: 100%;
+    height:5px;
+}
+.playerLast{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    gap: 10px;
+}
+.playerLast input[type='range']{
+    height: 4px;
+    
+}
+.playerLast input::-webkit-scrollbar-thumb{
+    background-color: red;
+    color:red;
+
+}
