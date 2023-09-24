@@ -10,49 +10,49 @@ const songs = [
         name: 'Closer',
         artist: 'Chainsmokers',
         path: './Assets/Songs/Closer (The Chainsmokers) Ft.Halsey(NewMrjatt.Com).mp3',
-        duration: '3:32',
+        duration: '4:05',
         coverPath: '/'
     },
     {
         name: 'Dusk till Down',
         artist: 'Zyan Malik',
         path: './Assets/Songs/Dusk Till Dawn - Zayn Malik-(Mp3Sun.Com)(0).mp3',
-        duration: '3:32',
+        duration: '3:59',
         coverPath: '/'
     },
     {
         name: 'Friends',
         artist: 'Unknown',
         path: './Assets/Songs/FRIENDS.mp3',
-        duration: '3:32',
+        duration: '3:22',
         coverPath: '/'
     },
     {
         name: 'Good life',
         artist: 'Unknown',
         path: './Assets/Songs/Good Life-(MirchiFun.com).mp3',
-        duration: '3:32',
+        duration: '3:45',
         coverPath: '/'
     },
     {
         name: 'kiss you',
         artist: 'one Direction',
         path: './Assets/Songs/One_Direction_-_Kiss_You.mp3',
-        duration: '3:32',
+        duration: '3:04',
         coverPath: '/'
     },
     {
         name: 'Wolves',
         artist: 'selena Gomez and Mashmello',
         path: './Assets/Songs/Selena Gomez, Marshmello - Wolves.mp3',
-        duration: '3:32',
+        duration: '-:--',
         coverPath: '/'
     },
     {
         name: 'Story of my life',
         artist: 'One Direction',
         path: './Assets/Songs/Story_Of_My_Life_AnyMaza.Com.mp3',
-        duration: '3:32',
+        duration: '4:05',
         coverPath: '/'
     },
 ]
