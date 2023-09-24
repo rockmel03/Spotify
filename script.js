@@ -44,7 +44,7 @@ const songs = [
     {
         name: 'Wolves',
         artist: 'selena Gomez and Mashmello',
-        path: './Assets/Songs/One_Direction_-_Kiss_You.mp3',
+        path: './Assets/Songs/Selena Gomez, Marshmello - Wolves.mp3',
         duration: '3:32',
         coverPath: '/'
     },
@@ -108,7 +108,6 @@ function playSong() {
     playPauseBtn.classList.remove('ri-play-circle-fill')
     playPauseBtn.classList.add('ri-pause-circle-fill')
 }
-
 
 /// handling play pause events
 
